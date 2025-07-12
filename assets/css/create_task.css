@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    padding: 40px;
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form */
+    padding: 20px;
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #2e68cc; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the button */
+    background-color: #2ebfcc; /* Button background color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #2e68cc; /* Darker color on hover */
+}
+
+.error-message {
+    color: red; /* Red text for error messages */
+    margin-top: 10px; /* Space above error messages */
+}
+
+input[type="date"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #2e68cc; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}

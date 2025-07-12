@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    margin: 0;
+    padding: 20px;
+}
+
+.main-header {
+    background: #2ebfcc;
+    color: white;
+    padding: 15px 20px; /* Increased padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-btn:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for table */
+}
+
+th, td {
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Bold text for headers */
+}
+
+tr:hover {
+    background-color: #e0f7fa; /* Light blue background on row hover */
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold; /* Bold text for status */
+}
+
+.status.pending {
+    background: rgb(255, 64, 0);
+}
+
+.status.in-progress {
+    background: #fbff00;
+    color: black; /* Change text color for better contrast */
+}
+
+.status.completed {
+    background: green;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+    text-decoration: none;
+    color: #2ebfcc;
+    margin-right: 10px;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    color: #ffcc00; /* Change color on hover */
+}
